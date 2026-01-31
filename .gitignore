@@ -1,0 +1,66 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+*.temp
+
+# Logs
+*.log
+logs/
+PROGRESS.md
+
+# Testing artifacts
+test-output/
+coverage/
+.vagrant/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Archives created during development
+*.tar.gz
+*.zip
+*.tgz
+
+# Downloaded binaries (for local testing)
+*.tar.gz
+prometheus-*
+node_exporter-*
+nginx-prometheus-exporter*
+
+# Secrets (should never be committed)
+secrets/
+*.pem
+*.key
+*.crt
+*.env
+.env.*
+
+# Local config overrides
+*.local
+*.local.*
+config.local.sh
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Windows
+*.lnk

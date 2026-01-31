@@ -1,0 +1,17 @@
+# Dashboard Provisioning Configuration
+# Auto-provisioned by NGINX Monitor Stack
+
+apiVersion: 1
+
+providers:
+  - name: 'NGINX Monitor Stack'
+    orgId: 1
+    folder: 'NGINX Monitor'
+    folderUid: 'nginx-monitor'
+    type: file
+    disableDeletion: false
+    updateIntervalSeconds: 60
+    allowUiUpdates: true
+    options:
+      path: /etc/nginx-monitor/grafana/dashboards
+      foldersFromFilesStructure: false
